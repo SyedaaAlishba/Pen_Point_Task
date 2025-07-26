@@ -1,4 +1,4 @@
-
+package Draw_location;
 
 public class Point {
     int x;
@@ -39,9 +39,10 @@ public class Point {
         return new Point(this.x + other.x, this.y + other.y);
     }
 
-    public Point subtract(Point other) {
-        return new Point(this.x - other.x, this.y - other.y);
-    }
+    //we can subtract like this
+//    public Point subtract(Point other) {
+//        return new Point(this.x - other.x, this.y - other.y);
+//    }
     @Override
     public String toString() {
         return "(" + x + ", " + y + ")";
