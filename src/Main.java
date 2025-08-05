@@ -27,7 +27,7 @@ public class Main {
 
 
         picasso.setPosition(p1); // pen is at 2,2
-        picasso.lineTo(p2);      //now pen at (6,10) because the points are (2,2) & (4,8)
+        picasso.lineTo(p2);      
         picasso.moveTo(p2);      //pen at P2
         picasso.display();       //Shows geometry.Pen location
         System.out.println(picasso.getPosition());
